@@ -1,0 +1,107 @@
+{
+  "intents": [
+    {
+      "tag": "Hello",
+      "patterns": [ "Hello", "Hi", "Hi, How are you?" ],
+      "responses": [ "how can I help you", "Hello, What can I get you?", "Can I help you with anything?", "How would you like that cooked?", "welcom to our restaurant service, What can I help you" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Have a good day", "Have a nice day", "Bye" ],
+      "responses": [ "Take care", "Have a nice day", "Have a good day" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Tank you",
+      "patterns": [ "I am grateful", "Thanks for your help", "Thanks for helping me out", "Thank you ", "Thanks", "Thanks a lot for your help", "Thanks very much", "Thank you very much", "Thank you so much" ],
+      "responses": [ "You're welcome", "No problem!", "Not at all!", "Don't mention it!", "My pleasure!", "No worries!", "It's nothing!", "I'm happy to help!", "Anytime!", "That's OK!" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Menu",
+      "patterns": [ "Can I have the menu?", "Could I have the menu?", "Excuse me, can I have the menu?", "Can I see the menu please!", "Can I get the menu please" ],
+      "responses": [ "For the menu we have: Appetizers, Salads and Soups, Sandwiches, Italian, Main Dish, Side Dishes, Fish Fresh from the Sea, Mexican food, Desserts, Beverages and Kids Menu" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Appetizers",
+      "patterns": [ "What types of appetizers do you have", "give me types of appetizers that you have", "Can you give me the items of appetizers" ],
+      "responses": [ "For appetizers, we have: Garlic Bread, Cheese Plate, Nachos" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Salads and Soups",
+      "patterns": [ "What types of Salads and Soups do you have?", "give me types of Salads and Soups that you have", "for Salads and Soups?" ],
+      "responses": [ "For Salads and Soups, we have: Tossed Salad, Caesar Salad, Soup of the Day" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Sandwiches",
+      "patterns": [ "What types of Sandwiches do you have?", "give me types of Sandwiches that you have?", "for Salads and Soups?" ],
+      "responses": [ "For Sandwiches, we have: Grilled Chicken Sandwich, Veggie (Garden) Burger, Steak Sandwich" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Italian",
+      "patterns": [ "what about Italian food?", "give me all items of Italian food?", "can you give more informations for Italian", "what are the items of Italian foods" ],
+      "responses": [ "For Italian, we have: Spaghetti, Pepperoni Pizza, Fettuccini" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Main Dish",
+      "patterns": [ "For the Main Dish", "do you have Chicken for the Main dish", "give me all Main dishs that you have?" ],
+      "responses": [ "For Main Dish, we have: New York Steak, Chicken Stir Fry, Hearty Stew, Chicken Cordon Bleu, Fish" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Side Dishes",
+      "patterns": [ "For the side Dish", "give me the items of side dishes", "side diches", "give me all Main dishs that you have?" ],
+      "responses": [ "For Side Dishes we have: French Fries, Rice, Grilled Veggies" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Fish Fresh",
+      "patterns": [ "What about the Fish Fresh", "Give me the items of Fish Fresh", "For the Fish Fresh", "do you have fish?" ],
+      "responses": [ "For fish we have: Fish and Chips, Battered Shrimp, Smoked Salmon" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Mexican food",
+      "patterns": [ "What about Mexican food", "what are the items of Mexican food", "give me all Mexican food that you have", "What are the items of Mexican food" ],
+      "responses": [ "For Mexican food we have: Fajitas, Nachos, Enchiladas" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Desserts",
+      "patterns": [ "What about the Desserts", "what are the Desserts that you have", "can you give me the items of the Desserts" ],
+      "responses": [ "for the Desserts we have: Apple Pie, Mocha Cheesecake, Banana Split" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Kids Menu",
+      "patterns": [ "What about Kids Menu", "Can you give all items of Kids Menu", "What are the items of Kids Menu that you have" ],
+      "responses": [ "For Kids Menu we have: Spaghetti and Meatballs, Cheeseburger and Chicken Fingers" ],
+      "context": []
+    },
+    {
+      "tag": "Beverages ",
+      "patterns": [ "what about the Beverages", "give me all items of Beverages ", "For Beverages ?", "can you give the items of Beverages that you have" ],
+      "responses": [ "For Beverages we have: Soda Pop, Juice and Milk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [ "now I want to reserve for dinner ", "can I reserve?", "and for the reservation?", "is that there is the possibility to reserve from the website?", "I want reserved for tonight?" ],
+      "responses": [ "for the reservation, you are given the possibility to reserve the table according to the number of people, please visit this link to reserve: <a id='modal-btn' onclick='openModal()' class='button'>Link#</a>" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "No response",
+      "patterns": [],
+      "responses": [ "Sorry I can't understand you, can you give me more information please" ],
+      "context": [ "" ]
+    }
+
+  ]
+}
